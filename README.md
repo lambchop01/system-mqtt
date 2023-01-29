@@ -44,7 +44,7 @@ Step 2: Clone this repository.
 
 Step 3: Verify all dependencies are installed.
 
-Step 4: Run the command `cargo install --path .` from the cloned directory.
+Step 4: Run the command `cargo deb --install` from the cloned directory.
 
 At this point you've installed `system-mqtt` as a debian package that can easily be removed. It will automatically be registered with systemd, but may require a manual start with `systemctl start system-mqtt`.
 
